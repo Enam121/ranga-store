@@ -30,6 +30,8 @@ const showProducts = (products) => {
     productContainer.appendChild(div);
   }
 };
+
+// calculate all
 let count = 0;
 const addToCart = (id, price) => {
   count = count + 1;
